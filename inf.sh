@@ -48,7 +48,6 @@ echo >> 123.txt
 ss -t -a >> 123.txt
 echo >> 123.txt
 
-
 echo "UDP SOCKETS" >> 123.txt
 echo >> 123.txt
 ss -u -a >> 123.txt
@@ -56,4 +55,4 @@ echo >> 123.txt
 
 echo "enter file encryption passphrase"
 gpg -c 123.txt
-rm 123.txt
+rm -rf 123.txt
